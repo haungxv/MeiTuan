@@ -10,23 +10,23 @@
     </el-row>
     <el-row >
       <el-col :span="24">
-        <!--<artistic/>-->
+        <artistic/>
       </el-col>
     </el-row>
   </div>
 </template>
 
 <script>
-  import Emenu from '@/components/index/menu.vue'
-  import Life from '@/components/index/life.vue'
-  // import Artistic from '@/components/index/artistic.vue'
-  export default {
-    components: {
-      Emenu,
-      Life,
-      // Artistic
-    }
+import Emenu from '@/components/index/menu.vue'
+import Life from '@/components/index/life.vue'
+import Artistic from '@/components/index/artistic.vue'
+export default {
+  components: {
+    Emenu,
+    Life,
+    Artistic
   }
+}
 </script>
 
 <style lang="scss">

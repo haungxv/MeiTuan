@@ -1,15 +1,13 @@
 <template>
-    <div class="layout-blank">
-      <nuxt/>
-    </div>
+  <div class="layout-blank">
+    <nuxt/>
+  </div>
 </template>
 
 <script>
-    export default {
-        name: "blank"
-    }
+export default {
+}
 </script>
 
-<style scoped>
-
+<style lang="css">
 </style>

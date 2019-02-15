@@ -7,7 +7,7 @@ passport.use(new LocalStrategy(async function(username,password,done){
   let where = {
     username
   };
-  let result = await UserModel.findOne(where);
+  let result = await UserModel.findOne(where)
   if(result!=null){
     if(result.password===password){
       return done(null,result)
@@ -17,14 +17,14 @@ passport.use(new LocalStrategy(async function(username,password,done){
   }else{
     return done(null,false,'用户不存在')
   }
-}));
+}))
 
 passport.serializeUser(function(user,done){
   done(null,user)
-});
+})
 
 passport.deserializeUser(function(user,done){
   return done(null,user)
-});
+})
 
 export default passport

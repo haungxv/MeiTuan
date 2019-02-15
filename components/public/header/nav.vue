@@ -7,16 +7,16 @@
           <dd><nuxt-link to="/order">我的订单</nuxt-link></dd>
           <dd><nuxt-link to="/order">我的收藏</nuxt-link></dd>
           <dd><nuxt-link to="/order">抵用券</nuxt-link></dd>
-          <dd><nuxt-link to="/order">用户设置</nuxt-link></dd>
+          <dd><nuxt-link to="/order">账户设置</nuxt-link></dd>
         </dl>
       </li>
       <li>
-        <nuxt-link to="/order">手机App</nuxt-link>
+        <nuxt-link to="/order">手机APP</nuxt-link>
       </li>
       <li class="list bd">
         <nuxt-link to="/center">商家中心</nuxt-link>
         <dl>
-          <dd><nuxt-link to="/userCenter">登陆商家中心</nuxt-link></dd>
+          <dd><nuxt-link to="/userCenter">登录商家中心</nuxt-link></dd>
           <dd><nuxt-link to="/coop">我想合作</nuxt-link></dd>
           <dd><nuxt-link to="/wap">免费手机开店</nuxt-link></dd>
           <dd><nuxt-link to="/kaipiao">商家申请开票</nuxt-link></dd>
@@ -25,8 +25,16 @@
       <li class="list site">
         <nuxt-link to="/site">网站导航</nuxt-link>
         <div class="subContainer">
-          <dl class="hotal">
+          <dl class="hotel">
             <dt>酒店旅游</dt>
+            <dd>国际机票</dd>
+            <dd>国际机票</dd>
+            <dd>国际机票</dd>
+            <dd>国际机票</dd>
+            <dd>国际机票</dd>
+            <dd>国际机票</dd>
+            <dd>国际机票</dd>
+            <dd>国际机票</dd>
             <dd>国际机票</dd>
             <dd>国际机票</dd>
             <dd>国际机票</dd>
@@ -38,12 +46,17 @@
           <dl class="food">
             <dt>吃美食</dt>
             <dd>烤鱼</dd>
-            <dd>烤鱼</dd>
-            <dd>烤鱼</dd>
-            <dd>烤鱼</dd>
+            <dd>特色小吃</dd>
+            <dd>烧烤</dd>
+            <dd>烧烤</dd>
+            <dd>烧烤</dd>
+            <dd>烧烤</dd>
           </dl>
           <dl class="movie">
             <dt>看电影</dt>
+            <dd>热映电影</dd>
+            <dd>热映电影</dd>
+            <dd>热映电影</dd>
             <dd>热映电影</dd>
             <dd>热映电影</dd>
             <dd>热映电影</dd>
@@ -99,11 +112,9 @@
 </template>
 
 <script>
-  export default {
-    name: "nav"
-  }
+export default {
+}
 </script>
 
-<style scoped>
-
+<style lang="css">
 </style>

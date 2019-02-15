@@ -14,14 +14,14 @@
 </template>
 
 <script>
-  import topBar from './topbar.vue'
-  import searchBar from './searchbar.vue'
-  export default {
-    components:{
-      topBar,
-      searchBar
-    }
+import topBar from './topbar.vue'
+import searchBar from './searchbar.vue'
+export default {
+  components:{
+    topBar,
+    searchBar
   }
+}
 </script>
 
 <style lang="scss">
